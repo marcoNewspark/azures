@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1848,931</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1848,932</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>OpenModule_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -62,7 +62,7 @@
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OpenModule" sap:VirtualizedContainerService.HintSize="376,590" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OpenModule" sap:VirtualizedContainerService.HintSize="376,344" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="myModule" />
     </Sequence.Variables>
@@ -71,14 +71,6 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_1">
-      <Assign.To>
-        <OutArgument x:TypeArguments="x:String">[myModule]</OutArgument>
-      </Assign.To>
-      <Assign.Value>
-        <InArgument x:TypeArguments="x:String">[in_ModuleName]</InArgument>
-      </Assign.Value>
-    </Assign>
     <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'SVG'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
       <ui:Click.CursorPosition>
         <ui:CursorPosition Position="Center">
@@ -113,29 +105,7 @@
         </ui:CursorPosition>
       </ui:Click.CursorPosition>
       <ui:Click.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f323f8c9-7b90-43dc-a428-19bfcbb20173" InformativeScreenshot="b7ad38853709307b8baf89394aa70f5c" Selector="[String.Format(&quot;&lt;html app='msedge.exe' title='AZ-204T00-A - Developing Solutions for Microsoft Azure | Skillpipe' /&gt;&lt;webctrl aaname='*{0}*' parentid='panels' tag='SPAN' /&gt;&quot;, myModule)]">
-          <ui:Target.TimeoutMS>
-            <InArgument x:TypeArguments="x:Int32" />
-          </ui:Target.TimeoutMS>
-          <ui:Target.WaitForReady>
-            <InArgument x:TypeArguments="ui:WaitForReady" />
-          </ui:Target.WaitForReady>
-        </ui:Target>
-      </ui:Click.Target>
-    </ui:Click>
-    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'SVG'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT">
-      <ui:Click.CursorPosition>
-        <ui:CursorPosition Position="Center">
-          <ui:CursorPosition.OffsetX>
-            <InArgument x:TypeArguments="x:Int32" />
-          </ui:CursorPosition.OffsetX>
-          <ui:CursorPosition.OffsetY>
-            <InArgument x:TypeArguments="x:Int32" />
-          </ui:CursorPosition.OffsetY>
-        </ui:CursorPosition>
-      </ui:Click.CursorPosition>
-      <ui:Click.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="146d30bf-62cb-4709-b513-22601a3b52bf" InformativeScreenshot="87af4debbbc23e8f8aaf38ead2f5fd05" Selector="&lt;html app='msedge.exe' title='AZ-204T00-A - Developing Solutions for Microsoft Azure | Skillpipe' /&gt;&lt;webctrl parentid='panels' tag='svg' /&gt;">
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f323f8c9-7b90-43dc-a428-19bfcbb20173" InformativeScreenshot="d422058f3378af439ca78babf3bcb591" Selector="[String.Format(&quot;&lt;html app='msedge.exe' title='AZ-204T00-A - Developing Solutions for Microsoft Azure | Skillpipe' /&gt;&lt;webctrl aaname='*{0}*' parentid='panels' tag='SPAN' /&gt;&quot;, myModule)]">
           <ui:Target.TimeoutMS>
             <InArgument x:TypeArguments="x:Int32" />
           </ui:Target.TimeoutMS>
